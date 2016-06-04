@@ -24,7 +24,7 @@ require(["gitbook", "jquery"], function (gitbook, $) {
                 $element.html(svgCode);
             };
 
-            mermaidAPI.render('graphDiv', code, insertSvg);
+            mermaidAPI.render('graphDiv-' + index, code, insertSvg);
         });
     });
 });
