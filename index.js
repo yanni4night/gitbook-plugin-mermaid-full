@@ -17,7 +17,7 @@ module.exports = {
             "plugin.js"
         ],
         css: [
-            "mermaidAPI.css"
+            "mermaid.css"
         ],
         html: {
         }
